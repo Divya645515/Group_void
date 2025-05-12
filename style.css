@@ -1,4 +1,19 @@
 body{
     background: #080808;
-    color: #fff;
+    color: #ffff;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    font-size: 80px;
+    padding-right: 100vh;
+    font-weight: 800;
+
+}
+.about-group .about{
+    color: #ababab;
+    
 }
