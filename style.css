@@ -1,19 +1,122 @@
-body{
-    background: #080808;
-    color: #ffff;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #9d95a3;
+  color: #333;
 }
-#header{
-    display: flex;
-    justify-content: space-between;
 
+header {
+  background-color: #2d248f;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
 }
-h1{
-    font-size: 80px;
-    padding-right: 100vh;
-    font-weight: 800;
 
+.logo {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
 }
-.about-group .about{
-    color: #ababab;
-    
+
+h1 {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+
+section {
+  padding: 40px 20px;
+  /* max-width: 1000px; */
+  margin: auto;
+  text-align: justify;
+}
+
+.about p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.member {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: scale-down;
+}
+
+.member h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.project {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project h2 {
+  margin-top: 0;
+  text-align:center;
+  color: #333;
+}
+
+.project p {
+  color: #555;
+  text-align: justify;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top:0%;
 }
