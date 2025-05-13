@@ -1,13 +1,9 @@
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #9d95a3;
   color: #333;
-=======
-=======
->>>>>>> 6d0c7439445ea06d034b0048d51264d5ad4b294b
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -83,14 +79,11 @@ a {
 
 a:hover {
     text-decoration: underline;
-<<<<<<< HEAD
->>>>>>> 6bfff5ffd13c0ac4b2f8d05c75805b682331d6d4
-=======
+
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #9d95a3;
-  color: #333;
->>>>>>> 6d0c7439445ea06d034b0048d51264d5ad4b294b
+  color: #333;4b
 }
 
 header {
@@ -181,6 +174,24 @@ section {
 .project p {
   color: #555;
   text-align: justify;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .projects-container {
+    padding: 15px;
+  }
 }
 
 .github-link {
