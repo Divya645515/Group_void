@@ -30,7 +30,7 @@ body {
 }
 
 .profile {
-    text-align: center;
+    text-align:center;
 }
 
 .box {
@@ -68,7 +68,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #007BFF;
+    color: #2d4b6c;
     font-weight: bold;
 }
 
