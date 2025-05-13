@@ -133,7 +133,9 @@ section {
   width: 220px;
   text-align: center;
 }
-
+.member:hover {
+  transform: translateY(-5px);
+}
 .member img {
   width: 100px;
   height: 100px;
